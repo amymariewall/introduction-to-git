@@ -27,7 +27,7 @@ If you haven't already, clone your repo.
 
 Now you will "build" each of the features for which you made tasks above. In this case, "building" a feature means adding a new Markdown (files ending in `.md`) document that answers the feature's question. No folder structure or other file convention is required--except that the files themselves should be Markdown files.
 
-Check the [Git Workflow](./GIT-WORKFLOW.md) document for the template you need to follow for each feature.
+Check the [Git Workflow](./GIT_WORKFLOW.md) document for the template you need to follow for each feature.
 
 There are many steps in the workflow, and they won't seem to provide meaningful value for such a trivial assignment as this. But they are _vital_ when working on real software.
 
@@ -44,8 +44,6 @@ You will be implementing two new "features":
 2. Remove least favorite question.
   - For this feature, remove an entire answer document from the project. (Just delete the file.)
 
-Follow the same [Git Workflow](./GIT-WORKFLOW.md) document for these features--no deviations from it should be necessary.
+Follow the same [Git Workflow](./GIT_WORKFLOW.md) document for these features--no deviations from it should be necessary.
 
 ---
-
-That's all. This is enough practice for using Git next week in your pair project.git
