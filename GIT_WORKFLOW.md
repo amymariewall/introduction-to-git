@@ -4,28 +4,20 @@ Every time you begin working on a new feature, follow this template.
 
 ## Preliminary Steps
 
-First, identify which task you will be working on.
+First, identify which task you will be working on (which question you will be answering).
 
 Next, make sure your Git repo is actually in the right state to begin a new feature:
 
 (If this is the _very first_ feature for this project, and you haven't done any work yet, then you should skip to the 'Create Branch & Pull Request' section.)
 
-1. Does `git status` show a clean working directory?
-2. Are you currently viewing the 'master' branch?
-3. Did you complete the previous task you were working on?
-4. Have you merged the previous task's branch into 'master'?
-5. Have you pushed to GitHub?
-6. Have you done a `git pull` to ensure you have the latest version of your code?
-
-If any of these questions return a "No" answer, you are not ready to begin a new feature.
 
 ## Create Branch & Pull Request
 
-If you have a task defined and are ready to begin, cut a new branch for the feature: `git checkout -b new-branch-name`
+If you have a task defined and are ready to begin, cut a new branch for the feature using the GitHub Desktop App.
 
 Then create an empty commit in that branch to mark the beginning of the feature. The commit message must include a brief title of the feature and the Issue number associated with that feature:
 
-`git commit --allow-empty -m "Favorite entertainer. Issue #12"`
+"Favorite entertainer. Issue #12"`
 
 Immediately push to GitHub and create a PR in your repo (Not OCS's) for the feature. The title of the PR should automatically get set to the commit message you just used (That's a good thing--it's an appropriate title for the PR).
 
